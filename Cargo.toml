@@ -1,0 +1,12 @@
+[package]
+name = "rua"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+full_moon = "3.0.0"
+stylua = "2.6.0"
+syn = { version = "3.0.9", features = ["full", "parsing"] }
+thiserror = "2.0.21"
